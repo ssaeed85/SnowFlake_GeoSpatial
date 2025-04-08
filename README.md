@@ -37,6 +37,22 @@ By working through this project, you will:
 - Basic understanding of SQL and geospatial concepts.
 - Optional: Familiarity with external APIs for geospatial data.
 
+## Environment Configuration
+
+Create a `.env` file in the root directory of the project to store your Snowflake credentials securely. Below is an example of what the `.env` file should look like:
+
+```env
+SNOWFLAKE_ACCOUNT=your_account_name
+SNOWFLAKE_USER=your_username
+SNOWFLAKE_PASSWORD=your_password
+
+#Optional
+SNOWFLAKE_ROLE=your_role 
+SNOWFLAKE_WAREHOUSE=your_warehouse
+SNOWFLAKE_DATABASE=your_database
+SNOWFLAKE_SCHEMA=your_schema
+```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
