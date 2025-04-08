@@ -29,7 +29,16 @@ By working through this project, you will:
     git clone https://github.com/your-username/SnowFlake_GeoSpatial.git
     ```
 2. Set up your Snowflake environment and ensure you have the necessary permissions to work with geospatial data.
-3. Follow the exercises provided in the repository to solve the geospatial problems.
+
+## Installing Dependencies
+
+To install the required dependencies for this project, ensure you have Python installed on your system. Then, run the following command to install the packages listed in the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all necessary libraries to work with Snowflake and geospatial data.
 
 ## Prerequisites
 
