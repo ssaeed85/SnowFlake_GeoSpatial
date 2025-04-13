@@ -127,10 +127,7 @@ def clean_all_data(session):
     session.sql(f"DROP WAREHOUSE IF EXISTS {WH};").collect()
 
 
-# test the connection and  setup
-
-
-# Test the classes and functions
+# Test functions
 if __name__ == "__main__":
 
     session = create_session()
@@ -140,7 +137,6 @@ if __name__ == "__main__":
     else:
         print("Failed to create session.")
 
-    # clean_all_data(session)
 
 
     # Setup Snowflake environment
@@ -187,3 +183,7 @@ if __name__ == "__main__":
 
     # Upload order data to Snowflake
     upload_order_data(session, order_df)
+
+
+    
+    # clean_all_data(session)
